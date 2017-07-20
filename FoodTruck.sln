@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodTruck.WebApi", "FoodTruck.WebApi\FoodTruck.WebApi.csproj", "{36615B4F-2426-45E2-A413-6E6C7682C52F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodTruck.Data.Commands.Tests", "FoodTruck.Data.Commands.Tests\FoodTruck.Data.Commands.Tests.csproj", "{37FC70C6-786C-4F2C-AC7B-A56E583EA517}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodTruck.Data", "FoodTruck.Data\FoodTruck.Data.csproj", "{FFE682F3-E9C0-42FC-AC98-459C8020C9C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodTruck.Data.Commands", "FoodTruck.Data.Commands\FoodTruck.Data.Commands.csproj", "{514B2DC6-2902-4492-BA67-7AAC25F18F79}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodTruck.Data.Queries", "FoodTruck.Data.Queries\FoodTruck.Data.Queries.csproj", "{02CD64E5-BDE2-4800-BF1E-7E4F59B62C6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36615B4F-2426-45E2-A413-6E6C7682C52F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36615B4F-2426-45E2-A413-6E6C7682C52F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36615B4F-2426-45E2-A413-6E6C7682C52F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36615B4F-2426-45E2-A413-6E6C7682C52F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37FC70C6-786C-4F2C-AC7B-A56E583EA517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37FC70C6-786C-4F2C-AC7B-A56E583EA517}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37FC70C6-786C-4F2C-AC7B-A56E583EA517}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37FC70C6-786C-4F2C-AC7B-A56E583EA517}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFE682F3-E9C0-42FC-AC98-459C8020C9C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFE682F3-E9C0-42FC-AC98-459C8020C9C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFE682F3-E9C0-42FC-AC98-459C8020C9C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFE682F3-E9C0-42FC-AC98-459C8020C9C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{514B2DC6-2902-4492-BA67-7AAC25F18F79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{514B2DC6-2902-4492-BA67-7AAC25F18F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{514B2DC6-2902-4492-BA67-7AAC25F18F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{514B2DC6-2902-4492-BA67-7AAC25F18F79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02CD64E5-BDE2-4800-BF1E-7E4F59B62C6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02CD64E5-BDE2-4800-BF1E-7E4F59B62C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02CD64E5-BDE2-4800-BF1E-7E4F59B62C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02CD64E5-BDE2-4800-BF1E-7E4F59B62C6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
