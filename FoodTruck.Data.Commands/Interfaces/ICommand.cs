@@ -7,6 +7,10 @@ namespace FoodTruck.Data.Commands.Interfaces
 {
     public interface ICommand
     {
-        void Execute();
+    }
+
+    public interface ICommandHandler<T> : ICommand
+    {
+        void Execute(T command);
     }
 }
