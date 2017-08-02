@@ -22,15 +22,11 @@ namespace FoodTruck.Data.Commands.Tests
         }
 
         [TestMethod]
-        public void RecipeCreateCommandIsNotValidIfIdIsEmpty()
+        public void RecipeCreateCommandInitializesGuid()
         {
-            var results = _recipeCreateValidator.Validate(_recipeCreateCommand);
-
-            Assert.IsFalse(results.IsValid);
-            Assert.IsTrue(results.Errors.Count > 0);
-            Assert.IsNotNull(results.Errors.First(x => x.PropertyName == "Id"));
+            Assert.AreNotEqual(_recipeCreateCommand.Id, Guid.Empty);
         }
-
+        
         [TestMethod]
         public void RecipeCreateCommandIsNotValidIfNoNameIsProvided()
         {

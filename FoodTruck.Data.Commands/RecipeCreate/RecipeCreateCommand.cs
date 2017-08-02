@@ -17,6 +17,7 @@ namespace FoodTruck.Data.Commands.RecipeCreate
 
         public RecipeCreateCommand()
         {
+            Id = Guid.NewGuid();
             Ingrediants = new List<Ingrediant>();
         }
     }
